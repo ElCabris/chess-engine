@@ -1,10 +1,6 @@
-#include <board.h>
+#include <game.h>
 
 int main(void) {
-  Board *board = create_board(8, 8);
-  init_standard_board(board);
-  print_board(board);
-
-  free_board(board);
+  play_game();
   return 0;
 }
